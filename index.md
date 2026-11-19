@@ -35,3 +35,8 @@ Bu politikayı zaman zaman güncelleyebiliriz. Güncel sürüm bu sayfada yayın
 ## 8. İletişim
 
 Srpy Interactive, recepsarpay@gmail.com
+
+
+## 9. Hesap ve veri silme
+
+Kül ve Filiz'deki hesaplar (kullanıcı adı ve şifrenin tuzlanmış özeti), oyun ilerlemeniz ve ayarlarınız yalnızca cihazınızda saklanır; Srpy Interactive'in sunucularında hesap veya kullanıcı verisi tutulmaz. Hesabınızı ve ona bağlı tüm verileri silmek için: oyunu cihazınızdan kaldırın (Ayarlar > Uygulamalar > Kül ve Filiz > Kaldır) veya uygulama bilgilerinden Depolama > Verileri temizle seçeneğini kullanın. Bu işlem hesabı, ilerlemeyi, ayarları ve cihazdaki tüm oyun verilerini kalıcı olarak siler. Online modda gönderilen oyuncu adı, oda kodu ve oyun durumu bizim tarafımızdan saklanmaz; üçüncü taraf MQTT sunucularındaki veriler için ilgili sunucu sahiplerine başvurmanız gerekir. Sorularınız için: recepsarpay@gmail.com
