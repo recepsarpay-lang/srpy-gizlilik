@@ -2,31 +2,31 @@
 
 Son güncelleme: 19 Kasım 2026
 
-Bu politika, Srpy Interactive tarafından geliştirilen Kül ve Filiz oyununun (Uygulama) kullanıcı verilerini nasıl işlediğini açıklar.
+Bu politika, Srpy Interactive tarafından geliştirilen Kül ve Filiz oyununun (Uygulama) verilerinizi nasıl işlediğini açıklar. Uygulama 13 yaş ve üzeri oyunculara yöneliktir.
 
-## 1. Toplanan veriler
+## 1. Cihazınızda saklanan veriler
 
-Uygulama, oynanışın çalışması için oyun ilerlemenizi ve ayarlarınızı cihazınızda saklar. Oyun içi çevrimiçi özellikler veya hesap kullanırsanız, bu özelliklerin çalışması için gerekli bilgiler (örneğin kullanıcı adı, oyun ilerlemesi) sunucularımıza gönderilebilir.
+Hesap bilgileriniz (kullanıcı adı ve şifrenin tuzlanmış özeti), oyun ilerlemeniz ve ayarlarınız yalnızca cihazınızda saklanır. Bu bilgiler geliştirici olarak bizim sunucularımıza gönderilmez; e-posta adresi istenmez. Uygulamayı kaldırdığınızda bu veriler silinir.
 
-## 2. Reklamlar
+## 2. Online mod ve sesli sohbet
 
-Uygulama, reklam göstermek için üçüncü taraf reklam hizmetleri kullanır. Bu hizmetler, ilgili reklamları göstermek ve reklam performansını ölçmek amacıyla cihazınızın reklam kimliğini, yaklaşık konumunuzu, cihaz ve uygulama kullanım bilgilerini toplayabilir. Reklam kişiselleştirmesini cihazınızın ayarlarından (Ayarlar, Google, Reklamlar) sınırlayabilir veya reklam kimliğinizi sıfırlayabilirsiniz.
+Online modda oyun, herkese açık üçüncü taraf MQTT sunucuları (broker.emqx.io, broker.hivemq.com, test.mosquitto.org) üzerinden diğer oyuncularla haberleşir. Bu modda şu bilgiler gönderilir: oyuncu adınız (en fazla 14 karakter), oda kodu, oyun durumu (konum, hareket, vuruş, öldürme, kazanılan kredi) ve mikrofonu açarsanız canlı ses. Uygulama sesi kaydetmez ve saklamaz; ancak bu sunucular bizim kontrolümüzde değildir ve bağlantı şifrelenmemiştir. Oyuncu adı olarak gerçek adınızı veya kişisel bilgilerinizi kullanmamanızı öneririz. Mikrofon izni yalnızca sesli sohbet için istenir ve dilediğiniz zaman kapatabilirsiniz.
 
-## 3. Verilerin paylaşımı
+## 3. Reklamlar
 
-Kişisel verilerinizi satmayız. Veriler yalnızca reklam hizmetleri ve, kullanılıyorsa, oyunun çevrimiçi altyapısı gibi hizmet sağlayıcılarla yukarıdaki amaçlarla paylaşılır.
+Uygulama, Google AdMob reklamları gösterir. AdMob, reklam göstermek ve ölçmek amacıyla reklam kimliğinizi, cihaz ve uygulama bilgilerini, IP adresinden yaklaşık konumunuzu ve reklam etkileşimlerinizi toplayabilir. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki kullanıcılara Google'ın onay formu gösterilir. Reklam kişiselleştirmesini cihaz ayarlarınızdan sınırlayabilir veya reklam kimliğinizi sıfırlayabilirsiniz. Ayrıntı: policies.google.com/technologies/ads
 
-## 4. Çocukların gizliliği
+## 4. Satın alma
 
-Uygulama 13 yaşın altındaki çocuklara yönelik değildir ve onlardan bilerek kişisel veri toplamaz. Bir çocuğun veri sağladığını fark ederseniz bizimle iletişime geçin; ilgili veriyi sileriz.
+Uygulamada gerçek parayla satın alma yoktur.
 
-## 5. Veri saklama ve silme
+## 5. Verilerin paylaşımı
 
-Cihazınızdaki oyun verileri Uygulamayı kaldırdığınızda silinir. Sunucularımızda hesabınıza bağlı veri varsa, silinmesi için aşağıdaki e-posta adresinden talepte bulunabilirsiniz.
+Kişisel verilerinizi satmayız. Veriler yalnızca yukarıda belirtilen reklam hizmeti (Google AdMob) ve online modda kullanılan üçüncü taraf sunucularla paylaşılır.
 
-## 6. Güvenlik
+## 6. Çocukların gizliliği
 
-Verilerinizi korumak için makul teknik önlemler alırız; ancak hiçbir iletim veya saklama yönteminin tamamen güvenli olduğu garanti edilemez.
+Uygulama 13 yaşın altındaki çocuklara yönelik değildir ve onlardan bilerek veri toplamaz. Bir çocuğun veri sağladığını fark ederseniz bizimle iletişime geçin.
 
 ## 7. Değişiklikler
 
